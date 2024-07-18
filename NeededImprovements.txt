@@ -1,0 +1,2 @@
+Book Store App.
+1. Navigation arrows does not show up on light theme.
