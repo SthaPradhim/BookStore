@@ -1,6 +1,5 @@
-// import React from 'react'
-
 import { createContext, useContext, useState } from "react";
+import PropTypes from "prop-types";
 
 export const AuthContext = createContext();
 export default function AuthProvider({ children }) {
@@ -16,3 +15,7 @@ export default function AuthProvider({ children }) {
 }
 
 export const useAuth = () => useContext(AuthContext);
+
+AuthProvider.propTypes = {
+  children: PropTypes.object,
+};

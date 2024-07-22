@@ -1,4 +1,3 @@
-// import React from 'react'
 import { useEffect, useState } from "react";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";

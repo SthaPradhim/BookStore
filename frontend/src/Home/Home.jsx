@@ -1,8 +1,7 @@
-// import React from 'react'
-import NavBar from '../Componentes/NavBar'
-import Banner from '../Componentes/Banner'
-import FreeBook from '../Componentes/FreeBook'
-import Footer from '../Componentes/Footer'
+import NavBar from "../Componentes/NavBar";
+import Banner from "../Componentes/Banner";
+import FreeBook from "../Componentes/FreeBook";
+import Footer from "../Componentes/Footer";
 
 function Home() {
   return (
@@ -15,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

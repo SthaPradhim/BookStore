@@ -1,12 +1,10 @@
-// import React from 'react'
-
 import { useEffect, useState } from "react";
 import Login from "./Login";
 import { useAuth } from "../context/AuthProvider";
 import Logout from "./Logout";
 
 const NavBar = () => {
-  const [authUser, setAuthUser] = useAuth();
+  const [authUser] = useAuth();
   console.log(authUser);
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"

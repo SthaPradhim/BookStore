@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import SignUp from "./Componentes/SignUp";
 import Courses from "./courses/courses";
 import Home from "./Home/Home";
@@ -8,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider";
 
 const App = () => {
-  const [authUser, setAuthUser] = useAuth();
+  const [authUser] = useAuth();
   console.log(authUser);
   return (
     <>
