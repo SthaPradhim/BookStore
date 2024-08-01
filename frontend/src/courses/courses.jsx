@@ -2,7 +2,7 @@ import Course from "../Componentes/Course";
 import Footer from "../Componentes/Footer";
 import NavBar from "../Componentes/NavBar";
 
-export default function Courses() {
+function Courses() {
   return (
     <>
       <NavBar />
@@ -13,3 +13,5 @@ export default function Courses() {
     </>
   );
 }
+
+export default Courses;
