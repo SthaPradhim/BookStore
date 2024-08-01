@@ -27,6 +27,10 @@ try {
   console.log("Error: ", error);
 }
 
+// working message on / route
+app.get("/", (req, res) => {
+  res.send("App is running");
+});
 // defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
