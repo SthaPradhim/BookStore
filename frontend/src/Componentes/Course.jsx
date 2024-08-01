@@ -8,7 +8,9 @@ export default function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get(
+          "https://book-store-ivory-omega.vercel.app/book"
+        );
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
